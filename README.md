@@ -34,19 +34,24 @@ O projeto possui as seguintes pastas principais:
 
 --- Apresentação das Telas
 #### 1. Tela de Cadastro de Usuário
-![Tela de Cadastro de Usuário](public/screenshots/cadastro_usuario.png)
+![Tela de Cadastro de Usuário](public/screenshots/CadastroWolves.png)
 
 #### 2. Tela de Login
-![Tela de Login](public/screenshots/login.png)
+![Tela de Login](public/screenshots/LoginWolves.png)
 
-#### 3. Tela de Cadastro de Equipamento (Administrador)
-![Tela de Cadastro de Equipamento](public/screenshots/cadastro_equipamento.png)
+#### 3. Menu De Seleção
+![Tela de Login](public/screenshots/MenuWolves.png)
 
-#### 4. Tela de Empréstimo de Equipamento
-![Tela de Empréstimo de Equipamento](public/screenshots/emprestimo_equipamento.png)
+#### 4. Tela de Cadastro de Equipamento (Administrador)
+![Tela de Cadastro de Equipamento](public/screenshots/AdministracaoWolves.png)
 
-#### 5. Tela de Devolução de Equipamento
-![Tela de Devolução de Equipamento](public/screenshots/devolucao_equipamento.png)
+#### 5. Tela de Empréstimo de Equipamento
+![Tela de Empréstimo de Equipamento](public/screenshots/ReservasWolves.png)
+
+#### 6. Tela de Devolução de Equipamento
+![Tela de Devolução de Equipamento](public/screenshots/DevolverWolves.png)
+
+ 
 
 
 
