@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/icone.ico" type="image/x-icon">
+    <title>Menu de Seleção</title>
+    <style>
+        body {
+            background-image: url(Imagens/neon.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0; 
+            font-family: sans-serif;
+        }
+
+        .menu {
+            position: relative;
+            width: 400px;
+            height: 500px;
+            background: rgb(255,255,255);
+            background: linear-gradient(173deg, rgba(255,255,255,1) 37%, rgba(0,89,255,1) 67%, rgba(0,0,0,1) 88%);
+            border: 2px solid rgba(255, 255, 255, .5);
+            border-radius: 20px;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 0 30px rgb(0, 221, 255);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        .containerBtn {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            height: 150px;
+        }
+
+        .menuBtn {
+            width: 300px;
+            height: 70px;
+            background: rgb(0, 13, 255);
+            border: 2px solid rgb(0, 255, 242);
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            font-size: 1.5em;
+            font: bold;
+            cursor: pointer;
+            transition: .3s;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <img src="imagens/wolves.png" alt="Wolves Logo" class="logo" style="width: 180px; height: auto; position: absolute; top: 10px; left: calc(50% - 90px);">
+        <div class="containerBtn"></div>
+            <a href="Reservar.html"><input class="menuBtn" type="button" value="Reservar"></a>
+            <a href="Devolver.html"><input class="menuBtn" type="button" value="Devolver"></a>
+        </div>
+    </div>
+</body>
+</html>
+</html>

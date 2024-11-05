@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Wolves UTFPR - Cadastro</title>
+    <style>
+        @font-face {
+            font-family: 'Thiscafe';
+            src: url(fontes/This\ Cafe.otf),url(fontes/This\ Cafe.ttf);
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2 {
+            font-family: 'Thiscafe', Helvetica, sans-serif;
+            color: #000000;
+            font-size: 2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="header">
+            <img src="imagens/wolves.png" alt="Wolves Logo" class="logo" style="width: 150px; height: auto;">
+            <h2>CADASTRE-SE</h2>
+        </section>
+
+        <form id="form" class="form">
+            <div class="form-content">
+                <label for="name">Nome Completo:</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome completo" autofocus>
+                <a>Error message</a>
+            </div>
+        
+            <div class="form-content">
+                <label for="idade">Idade:</label>
+                <input type="text" id="idade" name="idade" placeholder="Digite sua idade">
+                <a>Error message</a>
+            </div>
+        
+            <div class="form-content">
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" maxlength="11">
+                <a>Error message</a>
+            </div>
+        
+            <div class="form-content">
+                <label for="peso">Peso (kg):</label>
+                <input type="text" id="peso" name="peso" placeholder="Digite seu peso">
+                <a>Error message</a>
+            </div>
+        
+            <div class="form-content">
+                <label for="intencao">Posição:</label>
+                <select id="intencao" name="intencao">
+                    <option value="Cornerback">Cornerback</option>
+                    <option value="Safety">Safety</option>
+                    <option value="Linebacker">Linebacker</option>
+                    <option value="Defensive Line">Defensive Line</option>
+                    <option value="Wide Receiver">Wide Receiver</option>
+                    <option value="Tight End">Tight End</option>
+                    <option value="Offensive Line">Offensive Line</option>
+                    <option value="Running Back">Running Back</option>
+                    <option value="Quarterback">Quarterback</option>
+                </select>
+                <a>Error message</a>
+            </div>
+        
+            <div class="form-content">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                <a>Error message</a>
+            </div>
+        
+            <div class="form-content">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha">
+                <a>Error message</a>
+            </div>
+
+            <div class="form-content">
+                <label for="password-confirmation">Confirme sua Senha:</label>
+                <input type="password" id="password-confirmation" name="password-confirmation" placeholder="Digite sua senha novamente...">
+                <a>Error message</a>
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+        </div>
+        <script src="./Cadastroscript.js"></script>
+</body>
+</html>

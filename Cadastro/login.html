@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Wolves UTFPR</title>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="shortcut icon" href="imagens/icone.ico" type="image/x-icon">
+  <style>
+    @font-face {
+        font-family: 'Thiscafe';
+        src: url(fontes/This\ Cafe.otf),url(fontes/This\ Cafe.ttf);
+        font-weight: normal;
+        font-style: normal;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h2 {
+        font-family: 'Thiscafe', Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 3em;
+        font-weight: normal;
+    }
+  </style>
+</head>
+<body>
+<input type="radio" id="loginForm" name="formToggle" checked>
+<input type="radio" id="forgotForm" name="formToggle">
+
+  <div class="wrapper" id="loginFormContent">
+    <form action="login.html">
+      <div style="display: flex; justify-content: center;">
+        <div><img src="imagens/wolves.png" alt="Wolves Logo" class="logo" style="width: 180px; height: auto;"></div>
+      </div>
+      <div style="display: flex; justify-content: center;">
+        <h2>LOGIN</h2>
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Usuário" required>
+      </div>
+      <div class="input-box">
+        <input type="password" placeholder="Senha" required>
+      </div>
+      <div class="checkbox1">
+        <label><input type="checkbox">Lembrar-me</label>
+        <label for="forgotForm">Esqueceu sua senha?</label>
+      </div>
+      <button type="submit" class="btn" required>Entrar</button>
+    </form>
+
+    <div class="link"></div>
+    <p>Ainda não possui uma conta? <a href="CadastroNew.html" style="color: rgb(0, 255, 157);">Registre-se</a></p>
+    <p>Login de Administrador? <a href="adminLogin.html" style="color: rgb(246, 255, 0);">Clique Aqui</a></p>
+  </div>
+
+  <div class="wrapper" id="forgotFormContent">
+    <form action="">
+      <h1>Altere sua senha</h1>
+      <div class="input-box">
+        <input type="email" placeholder="Email" required>
+      </div>
+      <div class="input-box">
+        <button type="submit" class="btn" onclick="submitForm()">Enviar</button>
+        <div class="link" style="text-align: center;">
+            <p>Ainda não possui uma conta? <a href="CadastroNew.html" style="color: rgb(0, 255, 157);">Registre-se</a></p>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>

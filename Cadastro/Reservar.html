@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Wolves UTFPR - Reservas</title>
+    <style>
+        @font-face {
+            font-family: 'Thiscafe';
+            src: url(fontes/This\ Cafe.otf),url(fontes/This\ Cafe.ttf);
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2 {
+            font-family: 'Thiscafe', Helvetica, sans-serif;
+            color: #000000;
+            font-size: 2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="header">
+            <img src="imagens/wolves.png" alt="Wolves Logo" class="logo" style="width: 150px; height: auto;">
+            <h2>RESERVAR</h2>
+        </section>
+
+        <form id="form" class="form">
+            <div class="form-content">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                <a>Error message</a>
+            </div>
+
+            <div class="form-content">
+                <label for="tamanho">Tamanho:</label>
+                <input type="text" id="tamanho" name="tamanho" placeholder="Digite o tamanho desejado">
+                <a>Error message</a>
+            </div>
+
+            <div class="form-content">
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" id="quantidade" name="quantidade" placeholder="Digite a quantidade desejada">
+                <a>Error message</a>
+            </div>
+            <div class="form-content">
+                <label for="tipo">Tipo:</label>
+                <select id="tipo" name="tipo">
+                    <option value="Helmet">Helmet</option>
+                    <option value="Shoulder Pad">Shoulder</option>
+                    <option value="Calça">Calça</option>
+                    <option value="Luva">Luva</option>
+                    <option value="Jersey">Jersey</option>
+                </select>
+                <a>Error message</a>
+            </div>
+
+            <div class="form-content">
+                <label for="codigos">Código:</label>
+                <input type="text" id="codigos" name="codigos" placeholder="Digite o código do produto">
+                <a>Error message</a>
+            </div>
+
+            <div class="form-content">
+                <label for="data-emprestimo">Data de Empréstimo:</label>
+                <input type="date" id="data-emprestimo" name="data-emprestimo">
+                <a>Error message</a>
+            </div>
+
+            <div class="form-content">
+                <label for="data-devolucao">Data de Devolução:</label>
+                <input type="date" id="data-devolucao" name="data-devolucao">
+                <a>Error message</a>
+            </div>
+
+            <div class="form-content">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone">
+                <a>Error message</a>
+            </div>
+
+            <button type="submit">Reservar</button>
+        </form>
+    </div>
+    <script src="./Reservar.js"></script>
+</body> 
+</html>
